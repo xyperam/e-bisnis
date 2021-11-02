@@ -1,0 +1,338 @@
+.jumbotron {
+	background-image: url('../img/12.jpg');
+	background size: 100%;
+	background : cover;
+}
+
+.jumbotron h1 {
+	font-size: 80px;
+	color: white;
+	border: 4px solid white;
+	border-radius: 1rem;
+	margin-top: 1rem;
+}
+
+.jumbotron p {
+	font-size: 30px;
+	color: white;
+	margin-top: 1.5rem;
+}
+
+.gambar {
+	margin-top: 60px;
+}
+
+.gambar img {
+	width: 200px;
+}
+
+/*CSS ABOUT US*/ 
+.about {
+	margin-top: 80px;
+}
+
+.about h2 {
+	text-align: center;
+	border: 4px solid #292b2c;
+	border-radius: 0.6rem;
+}
+
+.about p {
+	text-align: justify;
+	margin-top: 2rem;
+}
+
+.about iframe {
+	margin-top: 2rem;
+}
+
+/*CSS ABOUT US SELESAI*/ 
+
+
+
+
+/*CSS KREDIBILITAS*/
+.kredibilitas {
+	margin-top: 80px;
+}
+
+.kredibilitas h2{
+	border: 4px solid #292b2c;
+	border-radius: 0.6rem;
+}
+
+.icon {
+    margin-top: 80px;
+}
+
+.icon h3 {
+    font-size: 1.75rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.icon p {
+	text-align: center;
+}
+/*CSS KREDIBILITAS SELESAI*/
+
+/*CSS FOOTER MULAI*/
+
+footer {
+	margin-top: 8rem;
+	bottom: 0;
+	width: 100%;
+	height: 155px;
+	background-color: #292b2c;
+	
+}
+
+.bawah p {
+	    color: white;
+	    padding-top: 25px;
+	    text-align: center;
+	    font-size: 0.9em;
+}
+
+.bawah1 p {
+	color: white;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+.sosmed i {
+	padding-top: 0.2rem;
+}
+
+
+/*CSS FOOTER SELESAI*/
+
+
+
+/*CSS ini untuk page order MULAI*/
+
+.Bag1 .carousel {
+	margin-top: 3rem;
+}
+
+.Bag1 h2 {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.Bag1 hr {
+	border-width: 1px;
+	border-color: #292b2c;
+}
+
+.Bag1 p {
+	margin-top: 1rem;
+	text-align: justify;
+}
+
+.Bag2 h2 {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.Bag2 hr {
+	border-width: 1px;
+	border-color: #292b2c;
+}
+
+.Bag2 p {
+	margin-top: 1rem;
+	text-align: justify;
+}
+
+.Bag2 .carousel {
+	margin-top: 3rem;
+}
+
+.Price {
+	margin-top: 8rem;
+	text-align: center;
+	align-items: center;
+	margin-bottom: 8rem
+}
+
+.Price hr {
+	border-width: 1px;
+	border-color: #292b2c;
+}
+
+.panel {
+      border: 1px solid #292b2c; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+
+.panel:hover {
+      box-shadow: 0 30px 30px 0px rgba(0,0,0);
+}
+
+.panel-footer .btn:hover {
+      border: 1px solid #7445A4;
+      background-color: #fff !important;
+      color: #7445A4;
+}
+
+.panel-heading {
+      color: #fff !important;
+      background-color: #292b2c !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      margin-bottom: 1rem;
+}
+
+.panel-footer {
+      background-color: white !important;
+      margin-bottom: 0.8rem;
+}
+
+.panel-footer h3 {
+      font-size: 32px;
+}
+
+.panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+}
+
+.panel-footer .btn {
+      margin: 15px 0;
+      background-color: #292b2c;
+      color: #fff;
+}
+
+.Order {
+	margin-top: 8rem;
+	text-align: center;
+	align-items: center;
+}
+
+.Order hr {
+	border-width: 1px;
+	border-color: #292b2c;
+}
+
+.Order1 {
+	margin-top: 3rem;
+}
+
+.FormOrder {
+	border: 2px solid #002633;
+	border-radius: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: block;
+    margin: 1em;
+}
+
+/*CSS ini untuk page order SELESAI*/
+
+
+
+/*CSS ini untuk page login MULAI*/
+.Login1 {
+	margin-top: 2rem;
+}
+
+.Login1 h2 {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.Login1 hr {
+	border-width: 1px;
+	border-color: #292b2c;
+	margin-bottom: 3rem;
+}
+
+.FormLogin {
+	border: 2px solid #292b2c;
+	border-radius: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: block;
+    margin: 1em;
+}
+
+.FormLogin button {
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+/*CSS ini untuk page login SELESAI*/
+
+
+
+/*CSS ini untuk page signup MULAI*/
+.Signup1 {
+	margin-top: 2rem;
+}
+
+.Signup1 h2 {
+	text-align: center;
+	margin-top: 2rem;
+	color: #292b2c;
+}
+
+.Signup1 hr {
+	border-width: 1px;
+	border-color: #292b2c;
+	margin-bottom: 3rem;
+}
+
+.FormSignUp button  {
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+/*CSS ini untuk page signup SELESAI*/
+
+/*CSS UNTUK PAGE ADMIN DI MULAI*/
+.latar{
+	background-image: url('../img/9.jpg');
+	background-repeat: no-repeat
+	background-size: cover;
+}
+.PriceAdmin {
+	margin-top: 10rem;
+	text-align: center;
+	align-items: center;
+	margin-bottom: 3rem
+}
+
+.PriceAdmin hr {
+	border-width: 1px;
+	border-color: #ffff;
+}
+
+.PriceAdmin h2 {
+	color: #fff;
+}
+
+.EditAdmin {
+	margin-top: 10rem;
+	text-align: center;
+	align-items: center;
+	margin-bottom: 3rem
+}
+
+.EditAdmin hr {
+	border-width: 1px;
+	border-color: #292b2c;
+}
+
+.PriceAdmin h2 {
+	color: #292b2c;
+}
+/*CSS UNTUK PAGE ADMIN SELESAI*/
