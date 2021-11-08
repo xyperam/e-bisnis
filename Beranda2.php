@@ -26,7 +26,7 @@ if(!isset($_SESSION["login"])){
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
 
-    <link rel="stylesheet" type="text/css" href="css/sepatu.css">
+    <link rel="stylesheet" type="text/css" href="css/tauco.css">
     <link rel="stylesheet" type="text/css" href="css/animated.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 
@@ -37,7 +37,7 @@ if(!isset($_SESSION["login"])){
 <!-- Nvbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark animated slideInDown">
     <div class="container-fluid">
-    <a class="navbar-brand" href="#">WHITESHOES</a>
+    <a class="navbar-brand" href="Beranda2.php">Tauco Cap Meong</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -71,8 +71,8 @@ if(!isset($_SESSION["login"])){
         <div class="text-center">
 
             <div class="jumbotron">
-              <h1 class="display-4 animated fadeInUp" style="animation-delay: 0.2s">We Here to Serve You</h1>
-              <p class="lead animated fadeInUp" style="animation-delay: 1s">Clean up mess with bit of happiness and joy</p>
+              <h1 class="display-4 animated fadeInUp" style="animation-delay: 0.2s">Tauco Cap Meong Ny. Tasma </h1>
+              <p class="lead animated fadeInUp" style="animation-delay: 1s">Tauco Cianjur No.1 sejak 1880</p>
             </div>
 
         </div>
@@ -87,7 +87,7 @@ if(!isset($_SESSION["login"])){
                 <div class="row">
                     <div class="col-12">
                     
-                        <img src="img/11.jpg">
+                        <img src="img/17.png">
                     
                     </div>
                 </div>
@@ -102,19 +102,18 @@ if(!isset($_SESSION["login"])){
         <div class="about">
           <div class="row">
             <div class="col-sm-12 col-md-12">
-              <h2>About Us</h2>
+              <h2>Tentang Produk Kami</h2>
 
               <div class="row">
 
                 <div class="col-sm-6 col-md-6">
-                <p style="text-align:center">We comes witho love to serve our costumer
-                  <br>Dirt is not a problem anymore since we provide a good service for you and your shoes
-                  <br>Come to us and get a clean shoes as new
+                <p style="text-align:center">Tauco merupakan produk industri rumahan yang menjadi ciri khas dari kota Cianjur. Tauco hampir tersebar keseluruh pelosok kota Cianjur dan biasa dijadikan oleh-oleh bagi masyarakat luar kota yang singgah di Cianjur.
+Bahan utama Tauco adalah kedelai kuning, gula merah, tepung dan bumbu lainnya.Tauco dapat di jadikan makanan variatif seperti geco (toge+tauco), sambal tauco atau pecel tauco.
                   </p>
                 </div>
 
                 <div class="col-sm-6 col-md-6">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.361156776053!2d106.80534504899293!3d-6.601961595202212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5c5287d2ae7%3A0x9edb391e7c74be19!2sBotani%20Square%20Bogor!5e0!3m2!1sid!2sid!4v1603355212875!5m2!1sid!2sid" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.5983540713146!2d107.14064901744383!3d-6.818606500000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6852fecdc9662b%3A0xa20aa46b077b98d2!2sToko%20Tauco%20Cianjur%20Cap%20Meong!5e0!3m2!1sen!2sid!4v1636296066965!5m2!1sen!2sid" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
 
               </div>
@@ -135,43 +134,43 @@ if(!isset($_SESSION["login"])){
         <div class="kredibilitas text-center">
           <div class="row">
             <div class="col-sm-12 col-md-12">
-              <h2>The Services We Provide</h2>
+              <h2>Servis Kami</h2>
               <div class="row">
 
                 <div class="icon col-md-4">
                   <span><i class="fa-7x fas fa-bolt text-warning"></i></span>
                   <h3>Fast</h3>
-                  <p>We have several service packages for your shoes including 24 hours</p>
+                  <p>Kami Melayani Anda Dengan Respon yang Cepat</p>
                 </div>
               
                 <div class="icon col-md-4">
                   <span><i class="fa-7x fas fa-people-carry"></i></span>
                   <h3>P & D services</h3>
-                  <p>we have a service to pick up and deliver your shoes.</p>
+                  <p>kami Meneydiakan Layanan Antar Ke Alamat Anda.</p>
                 </div>
 
                 <div class="icon col-md-4">
                   <span><i class="fa-7x fas fa-user-shield text-dark"></i></span>
                   <h3>Provide Warranty</h3>
-                  <p>We guarantee if your shoes have any damage that we cause from our services</p>
+                  <p>kami Menyediakan Garansi Jika Produk Kami Mengalami Kerusakan Pada Saat Pengantaran</p>
                 </div>
 
                 <div class="icon col-md-4">
                   <span><i class="fa-7x fas fa-map-marker-alt text-danger"></i></span>
                   <h3>Store Location</h3>
-                  <p>Botani Square Lt. LG, Jalan Raya Padjadjaran No. 1, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16129.</p>
+                  <p>Jl. Raya Gunung Lanjung KM 5, Cugenang - Cianjur dan Jl. Hos Cokroaminoto No.160 - Cianjur.</p>
                 </div>
 
                 <div class="icon col-md-4">
                   <span><i class="fa-7x fas fa-hand-holding-usd text-success"></i></span>
                   <h3>Best Price Guarantee</h3>
-                  <p>Competitive prices with the best service.</p>
+                  <p>Kami Menjamin Harga yang Stabil dan Konsisten.</p>
                 </div>
 
                 <div class="icon col-md-4">
                   <span><i class="fa-7x fas fa-headset"></i></span>
                   <h3>Customer Service</h3>
-                  <p>we receive your complaint 24 hours, call 13225</p>
+                  <p>Anda Bisa Hubungi Kami 24 Jam Ke 08696969696</p>
                 </div>
 
               </div>
@@ -194,7 +193,7 @@ if(!isset($_SESSION["login"])){
         <div class="row">
           <div class="col-sm-12 col-md-12">
 
-            <p>&copy;White Shoes 2020 All Right Reserved || Made With <i class="fas fa-heart text-danger"></i> by Kelompok </p>
+            <p>&copy;Tauco Cap Maung Ny.Tasma 2021 All Right Reserved || Made With <i class="fas fa-heart text-danger"></i> by Kelompok </p>
 
 
           </div>
