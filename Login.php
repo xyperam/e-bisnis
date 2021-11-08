@@ -103,7 +103,7 @@ $password = $_POST["password"];
     <div class="Login1">
       <div class="row">
         <div class="col-sm-12 col-md-12">
-          <h2>Login User</h2>
+          <h2>Login ope</h2>
 
           <?php if (isset($error)) : ?>
             <p style="color : red;font-style: bold; ">USER NAME / PASSWORD SALAH</p>
