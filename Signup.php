@@ -31,7 +31,7 @@ alert('user baru berhasil ditambahkan');
     <link rel="stylesheet" type="text/css" href="css/animated.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 
-    <title>www.whiteshoes.com</title>
+    <title>www.taucocapmaung.com</title>
   </head>
   <body>
 

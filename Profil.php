@@ -2,14 +2,14 @@
 
 session_start();
 
-    if(isset($_SESSION['User']))
-    {
-        echo ' Well Come ' . $_SESSION['User'].'<br/>';
-    }
-    else
-    {
-        header("location:Login.php");
-    }
+    // if(isset($_SESSION['User']))
+    // {
+    //     echo ' Well Come ' . $_SESSION['User'].'<br/>';
+    // }
+    // else
+    // {
+    //     header("location:Login.php");
+    // }
 
 
 require 'function.php';
@@ -39,7 +39,7 @@ require 'function.php';
     <link rel="stylesheet" type="text/css" href="css/animated.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 
-    <title>www.whiteshoes.com</title>
+    <title>www.taucocapmaung.com</title>
   </head>
   <body>
 
@@ -47,7 +47,7 @@ require 'function.php';
 <!-- Nvbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark animated slideInDown">
     <div class="container-fluid">
-    <a class="navbar-brand" href="Beranda1.php">WHITESHOES</a>
+    <a class="navbar-brand" href="Beranda1.php">Tauco Cap Maung</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -83,7 +83,7 @@ require 'function.php';
                       <div class="card-body">
                             <hr>
                             <h2 class="card-title"><?=$_SESSION['nama_user'];?></h2>
-                            <p class="card-text">thanks to trust us to treat your shoes. We provide the best for your shoes.</p>
+                            <p class="card-text">Aku Pecinta Tauco.</p>
                             <p class="card-text"><small class="text-muted">Registered as a member</small></p>
                       </div>
                         

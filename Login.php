@@ -63,7 +63,7 @@ $password = $_POST["password"];
     <link rel="stylesheet" type="text/css" href="css/animated.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 
-    <title>www.whiteshoes.com</title>
+    <title>www.taucocapmaung.com</title>
   </head>
   <body>
 
@@ -72,7 +72,7 @@ $password = $_POST["password"];
 <!-- Nvbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark animated slideInDown">
     <div class="container-fluid">
-    <a class="navbar-brand" href="Beranda1.php">WHITESHOES</a>
+    <a class="navbar-brand" href="Beranda1.php">Tauco Cap Maung</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
