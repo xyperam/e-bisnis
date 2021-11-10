@@ -1,3 +1,20 @@
+<?php 
+
+session_start();
+
+if(!isset($_SESSION["login"])){
+
+  header("Location: Login.php");
+  exit;
+}
+
+
+ ?>
+
+
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -20,20 +37,17 @@
 <!-- Nvbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark animated slideInDown">
     <div class="container-fluid">
-    <a class="navbar-brand" href="Beranda1.php">Tauco Cap Meong</a>
+    <a class="navbar-brand" href="Beranda2.php">Tauco Cap Meong</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link animated bounceInRight" href="Beranda2.php">Home</a>
-            </li>
+            
             <li class="nav-item">
-              <a class="nav-link animated bounceInRight" style = "animation-delay: 0.5s" href="Order2.php">Order</a>
+              <a class="nav-link animated bounceInRight" style = "animation-delay: 1.5s" href="Login.php">Login</a>
             </li>
-              
 
           </ul>
         </div>
@@ -51,8 +65,6 @@
             <div class="jumbotron">
               <h1 class="display-4 animated fadeInUp" style="animation-delay: 0.2s">Tauco Cap Meong Ny. Tasma </h1>
               <p class="lead animated fadeInUp" style="animation-delay: 1s">Tauco Cianjur No.1 sejak 1880</p>
-              <a class="btn btn-dark btn-lg animated fadeInUp" style="margin-top: 50px; animation-delay : 1.5s" href="Login.php" role="button">Sign Up / Login</a>
-
             </div>
 
         </div>

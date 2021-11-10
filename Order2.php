@@ -313,7 +313,7 @@ $harga = mysqli_query($conn,"SELECT * FROM harga");
 
         <div class="FormOrder d-flex justify-content-center">
         <div class="col-md-8 col-sm-8">
-          <p style="margin-top: 1rem;">Yuk Beli Tauco Cap MAung Ny.Tasma</p>
+          <p style="margin-top: 1rem;">Yuk Beli Tauco Cap Maung Ny.Tasma</p>
 
         <form action="" method="post">
             <div class="form-group">

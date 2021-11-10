@@ -155,7 +155,7 @@ if (isset($_POST["submit"])) {
         <div class="row">
           <div class="col-sm-12 col-md-12">
 
-            <p style="color: white;">&copy;White Shoes 2020 All Right Reserved || Made With <i class="fas fa-heart text-danger"></i> by Kelompok </p>
+          <p>&copy;Tauco Cap Maung Ny.Tasma 2021 All Right Reserved || Made With <i class="fas fa-heart text-danger"></i> by Kelompok </p>
 
 
           </div>

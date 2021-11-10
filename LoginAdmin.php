@@ -71,9 +71,9 @@ $password = $_POST["password"];
 
 
 <!-- Nvbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark animated slideInDown">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark animated slideInDown">
     <div class="container-fluid">
-    <a class="navbar-brand" href="Beranda1.php">WHITESHOES</a>
+    <a class="navbar-brand" href="Beranda1.php">Tauco Cap Maung</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -85,6 +85,9 @@ $password = $_POST["password"];
             </li>
             <li class="nav-item">
               <a class="nav-link animated bounceInRight" style = "animation-delay: 0.5s" href="Order.php">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link animated bounceInRight" style = "animation-delay: 1s" href="Login.php">AMember</a>
             </li>
           </ul>
         </div>
@@ -130,7 +133,7 @@ $password = $_POST["password"];
         <div class="FormLogin d-flex justify-content-center">
         <div class="col-md-8 col-sm-8">
 
-            <p>Oh hi... do you already have an account ? if yes you can log in here, if you don't have an account you cansign up</a></p>
+            <p>Oh hi... do you already have an account ? if yes you can log in here, if you don't have an account you can sign up</a></p>
 
           <form action="" method="post">
             <div class="form-group">
@@ -171,7 +174,7 @@ $password = $_POST["password"];
         <div class="row">
           <div class="col-sm-12 col-md-12">
 
-            <p>&copy;White Shoes 2020 All Right Reserved || Made With <i class="fas fa-heart text-danger"></i> by Kelompok </p>
+          <p>&copy;Tauco Cap Maung Ny.Tasma 2021 All Right Reserved || Made With <i class="fas fa-heart text-danger"></i> by Kelompok </p>
 
 
           </div>
