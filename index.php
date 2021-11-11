@@ -1,20 +1,3 @@
-<?php 
-
-session_start();
-
-if(!isset($_SESSION["login"])){
-
-  header("Location: Login.php");
-  exit;
-}
-
-
- ?>
-
-
-
-
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -45,9 +28,14 @@ if(!isset($_SESSION["login"])){
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             
+          <li class="nav-item">
+              <a class="nav-link animated bounceInRight" style = "animation-delay: 0.5s" href="produk.php">Produk</a>
+            </li>
+            
             <li class="nav-item">
               <a class="nav-link animated bounceInRight" style = "animation-delay: 1.5s" href="Login.php">Login</a>
             </li>
+          
 
           </ul>
         </div>

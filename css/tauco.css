@@ -319,7 +319,7 @@ footer {
 
 /*CSS UNTUK PAGE ADMIN DI MULAI*/
 .latar{
-	background-image: url('../img/9.jpg');
+	background-image: url('../img/R.jpg');
 	background-repeat: no-repeat
 	background-size: cover;
 }
@@ -348,10 +348,10 @@ footer {
 
 .EditAdmin hr {
 	border-width: 1px;
-	border-color: #582f0e;
+	border-color: #ffff;
 }
 
 .PriceAdmin h2 {
-	color: #582f0e;
+	color: #ffff;
 }
 /*CSS UNTUK PAGE ADMIN SELESAI*/

@@ -48,7 +48,7 @@ $pesan = mysqli_query($conn,"SELECT * FROM pesan");
 <div class="latar">
   <nav class="navbar navbar-expand-lg navbar-dark bg-transparent animated slideInDown">
     <div class="container-fluid">
-    <a class="navbar-brand" href="#">WHITESHOES</a>
+    <a class="navbar-brand" href="#">Tauco Cap Meong</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -138,7 +138,8 @@ $pesan = mysqli_query($conn,"SELECT * FROM pesan");
       <div class="PriceAdmin" id="Price">
         <div class="row">
           <div class="col-sm-12 col-md-12">
-            <h2>Order List</h2>
+            <h2 style="color: white;">Order List</h2>
+
             <hr>
           </div>
         </div>

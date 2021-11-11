@@ -87,7 +87,7 @@ $password = $_POST["password"];
               <a class="nav-link animated bounceInRight" style = "animation-delay: 0.5s" href="Order.php">Order</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link animated bounceInRight" style = "animation-delay: 1s" href="Login.php">AMember</a>
+              <a class="nav-link animated bounceInRight" style = "animation-delay: 1s" href="Login.php">Member</a>
             </li>
           </ul>
         </div>

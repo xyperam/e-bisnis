@@ -83,7 +83,7 @@ $password = $_POST["password"];
               <a class="nav-link animated bounceInRight" href="Beranda1.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link animated bounceInRight" style = "animation-delay: 0.5s" href="Order.php">Order</a>
+              <a class="nav-link animated bounceInRight" style = "animation-delay: 0.5s" href="produk.php">Produk</a>
             </li>
             <li class="nav-item">
               <a class="nav-link animated bounceInRight" style = "animation-delay: 1s" href="LoginAdmin.php">Admin</a>
@@ -103,7 +103,7 @@ $password = $_POST["password"];
     <div class="Login1">
       <div class="row">
         <div class="col-sm-12 col-md-12">
-          <h2>Login ope</h2>
+          <h2>Login Member</h2>
 
           <?php if (isset($error)) : ?>
             <p style="color : red;font-style: bold; ">USER NAME / PASSWORD SALAH</p>

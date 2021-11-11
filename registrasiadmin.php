@@ -31,7 +31,7 @@ alert('user baru berhasil ditambahkan');
     <link rel="stylesheet" type="text/css" href="css/animated.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 
-    <title>www.whiteshoes.com</title>
+    <title>www.taucomeongcianjur.com</title>
   </head>
   <body>
 
@@ -39,7 +39,7 @@ alert('user baru berhasil ditambahkan');
 <!-- Nvbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark animated slideInDown">
     <div class="container-fluid">
-    <a class="navbar-brand" href="Beranda1.php">WHITESHOES</a>
+    <a class="navbar-brand" href="Beranda1.php">Tauco Meong Cianjur</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
