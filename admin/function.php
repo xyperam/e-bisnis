@@ -1,6 +1,6 @@
 <?php 
 //koneksi ke data base
-$conn = mysqli_connect("localhost","root","","cucisepatu");
+$conn = mysqli_connect("localhost","root","","taucho");
 
 
 
